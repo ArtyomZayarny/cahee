@@ -1,0 +1,25 @@
+.about-us {
+	@include bgc (#00b0b0);
+	&__container {
+		@include flex();
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__img {
+		max-width: rem(566);
+		margin-left: -29px;
+	}
+	&__wrap {
+		max-width: rem(499);
+	}
+	&__title {
+		color: $white;
+		font-size: 90px;
+		font-weight: 700;
+	}
+	&__text {
+		color: $white;
+		font-size: 17px;
+		font-weight: 300;
+	}
+}

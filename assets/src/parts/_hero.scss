@@ -1,0 +1,15 @@
+.hero {
+	display: flex;
+	padding-top: rem(258);
+	
+	&__info {
+		@include flex-col(4);
+		
+	}
+	&__title {
+		color: #262626;
+		font-size: rem(60);
+		font-weight: 800;
+		
+	}
+}

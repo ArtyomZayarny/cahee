@@ -1,0 +1,13 @@
+.logo {
+	max-width: 127px;
+	max-height: 52px;
+}
+
+//Flat buton 
+
+.flat-btn {
+	@include btn($color-1);
+	&:hover {
+		@include btn($color-1-hover);
+	}
+}

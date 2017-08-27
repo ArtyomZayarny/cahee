@@ -1,0 +1,103 @@
+.our-services {
+	@include bgc(#70bfff);
+	padding: rem(50) 0;
+	position: relative;
+	&__container {
+		@include flex();
+		justify-content: space-around;
+		align-items: center;
+	}
+	&__list {
+		min-width: 400px;
+	}
+	&__item {
+		width: 100%;
+		background-color: $white;
+		max-height: 100px;
+		padding: rem(40) 0 rem(41) rem(71);
+		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+		margin-bottom: rem(20);
+		position: relative;
+		transition: .3 all ease;
+		&:hover {
+			background-color: rgba(255, 136, 33, 0.9);
+		}
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+		}
+		&--first {
+			&:after {
+				background-image: url(../../img/basket.svg);
+				width: 47px;
+				height: 43px;
+				color: $black-1;
+				right: 26px;
+				top: 30%;
+			}
+		}
+		&--second {
+			&:after {
+				background-image: url(../../img/second.svg);
+				width: 53px;
+				height: 47px;
+				color: $black-1;
+				right: 26px;
+				top: 30%;
+			}
+		}
+		&--third {
+			padding-left: 16px;
+			&:after {
+				background-image: url(../../img/third.svg);
+				width: 53px;
+				height: 53px;
+				color: $black-1;
+				right: 26px;
+				top: 30%;
+			}
+		}
+		&--span {
+			display: block;
+			width: 80%;
+			text-align: center;
+		}
+		&--fourth {
+			margin-bottom: 0;
+			&:after {
+				background-image: url(../../img/fourth.svg);
+				width: 54px;
+				height: 54px;
+				color: $black-1;
+				right: 26px;
+				top: 30%;
+			}
+		}
+		cursor:pointer;
+	}
+	&__link {
+		color: $black-1;
+		font-size: 20px;
+		font-weight: 700;
+		line-height: 27px;
+	}
+	&__img {
+		position: relative;
+		width: rem(546);
+	}
+	&--size {
+		width: 462px
+	}
+	&__text {
+		color: $white;
+		font-size: 90px;
+		font-weight: 700;
+		line-height: 76px;
+		position: absolute;
+		margin-bottom: 0;
+		width: 100%;
+		top: 50%;
+		left: 0;
+	}
+}

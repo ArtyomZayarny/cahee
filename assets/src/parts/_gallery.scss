@@ -1,0 +1,57 @@
+.gallery {
+	@include bgc(#ffe92f);
+	&__row {
+		padding-top: rem(100);
+		padding-bottom: rem(46);
+	}
+	&-text {
+		max-width: 577px;
+		text-align: center;
+		margin: 0 auto;
+		padding: 0 15px;
+		&__title {
+			color: $black-1;
+			font-size: 90px;
+			font-weight: 700;
+			margin-bottom: rem(30);
+		}
+		&__desc {
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 27px;
+		}
+	}
+	.tabs__row {
+	   @include flex();
+		align-items: center;
+	  padding: 15px 0;
+			&--pt {
+			 padding-top: 0;
+			}
+		&__col-8{
+			@include flex-col(8);
+			
+			
+		}
+		&__col-4 {
+			@include flex-col(4);
+		
+		}
+		&__col-6 {
+      @include flex-col(6);
+		}
+		
+		
+	}
+	.flat-btn {
+			@include btn(#5585a2);
+		  margin: 0 auto;
+		  
+		&:hover {
+			@include bgc(#375c73);
+			
+		}
+     
+		}
+	
+}

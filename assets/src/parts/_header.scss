@@ -1,0 +1,33 @@
+.main-header {
+	
+	padding-top: rem(50);
+	padding-bottom: rem(27);
+	background: url(../../img/hero.png)center no-repeat;
+	background-size: cover;
+	height: 100vh;
+
+	position: relative;
+	&__logo {
+		@include flex-col(2);
+	}
+	&__nav {
+		@include flex-col(10);
+	}
+	&__row {
+		align-items: center;
+	}
+	&__scroll {
+		display: block;
+		width: 24px;
+		height: 40px;
+		position: absolute;
+		bottom:rem(27);
+		left:50%;
+		margin-left: -12px;
+		background: url(../../img/scroll.png)50% no-repeat;
+		&:hover {
+			opacity: .6;
+		}
+	}
+}
+
