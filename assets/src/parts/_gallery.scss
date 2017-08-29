@@ -1,5 +1,6 @@
 .gallery {
 	@include bgc(#ffe92f);
+	padding-bottom: rem(115);
 	&__row {
 		padding-top: rem(100);
 		padding-bottom: rem(46);

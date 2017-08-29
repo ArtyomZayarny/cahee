@@ -525,7 +525,7 @@ img {
 
 .hero {
   display: flex;
-  padding-top: 16.125rem; }
+  padding-top: 3.9375rem; }
   .hero__info {
     padding: 0 15px;
     flex: 0 1 33.3332%;
@@ -645,7 +645,8 @@ img {
     left: 0; }
 
 .gallery {
-  background-color: #ffe92f; }
+  background-color: #ffe92f;
+  padding-bottom: 7.1875rem; }
   .gallery__row {
     padding-top: 6.25rem;
     padding-bottom: 2.875rem; }
@@ -697,5 +698,54 @@ img {
     margin: 0 auto; }
     .gallery .flat-btn:hover {
       background-color: #375c73; }
+
+.subscribe-us__bg {
+  background: url("../../img/subscribe.png") no-repeat center;
+  background-size: cover;
+  padding: 9.1875rem 0 10.25rem 0; }
+.subscribe-us__info {
+  max-width: 33.875rem; }
+.subscribe-us__title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 27px; }
+.subscribe-us__text {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 27px; }
+.subscribe-us .sub-form {
+  max-width: 48.4375rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%; }
+  .subscribe-us .sub-form__email {
+    max-width: 73.5%;
+    height: 3.375rem;
+    margin-right: 30px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px; }
+    .subscribe-us .sub-form__email::-webkit-input-placeholder {
+      font-family: "Raleway", sans-serif;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 27px;
+      opacity: 0.5; }
+  .subscribe-us .sub-form__button {
+    border: none;
+    color: #fff;
+    width: 10.625rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #96b92c;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    justify-content: center;
+    transition: .3s all ease;
+    cursor: pointer; }
+    .subscribe-us .sub-form__button:hover {
+      background-color: #5b7900; }
 
 /*# sourceMappingURL=style.css.map */
