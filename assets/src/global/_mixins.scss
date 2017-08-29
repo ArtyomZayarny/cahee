@@ -71,4 +71,8 @@
 @mixin bgc($bgc) {
    background-color: $bgc;
 }
+@mixin background($url) {
+	background: url($url)no-repeat center;
+	background-size: cover;
+}
 
